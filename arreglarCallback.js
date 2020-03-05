@@ -5,20 +5,23 @@ function suma(numero_uno,numero_dos){
     }, 1000);
 }
  
-var resultado = suma(2,5)
+// var resultado = suma(2,5)
 
-console.log(resultado);
+// console.log(resultado);
  
  
  
-function sumaBien(x,y,resultado){
+function sumaBien(x,y,espera){
+    var resultado = x + y;
+    espera(resultado)
+    // return resultado;
 
 }
   
 
-/* Descomentá esta parte para probar la función sumaBien
+//  Descomentá esta parte para probar la función sumaBien
 sumaBien(2,5,function(resultado){
     console.log(resultado);
 })
-*/
+
 
