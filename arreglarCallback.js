@@ -6,13 +6,13 @@ function suma(numero_uno,numero_dos){
 }
  
 var resultado = suma(2,5)
- 
+
 console.log(resultado);
  
  
  
-function sumaBien(){
-    // completar...
+function sumaBien(x,y,resultado){
+
 }
   
 
