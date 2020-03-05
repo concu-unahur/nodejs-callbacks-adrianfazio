@@ -11,11 +11,11 @@ function suma(numero_uno,numero_dos){
  
  
  
-function sumaBien(x,y,espera){
-    var resultado = x + y;
-    espera(resultado)
-    // return resultado;
-
+function sumaBien(numero_uno,numero_dos,espera){
+    setTimeout(function(){
+       var resultado = numero_uno + numero_dos;
+       espera(resultado);
+    }, 1000);
 }
   
 
